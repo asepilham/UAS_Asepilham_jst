@@ -46,7 +46,7 @@ bot.on('message', (msg) => {
 	        ).then((jres)=>{
                 bot.sendMessage(
 	                msg.chat.id,
-	                `nilai v yang diprediksi adalah ${jres[0]} `
+	                `nilai x2 yang diprediksi adalah ${jres[0]} `
 	            );
 	            bot.sendMessage(
 	                msg.chat.id,
